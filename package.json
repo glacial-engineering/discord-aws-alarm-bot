@@ -1,0 +1,16 @@
+{
+  "name": "discord-aws-alarm-bot",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to update a Discord channel based on alarm active status",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dana <dana@glacial.engineering>",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.614.0",
+    "discord.js": "^14.15.3"
+  }
+}
